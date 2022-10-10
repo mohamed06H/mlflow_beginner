@@ -40,5 +40,14 @@
         # mlflow log model
         mlflow.sklearn.log_model(clf, "classifier_titanic")
 
-### Launch MLflow on localhost with Tracking Server:
+### Launch MLflow on localhost with a Tracking Server:
     Terminal:§ mlflow ui --backend-store-uri sqlite:///mlruns.db
+   
+   MLflow UI will appear on your browser, so you can :
+   - Track experiments
+   - Compare runs 
+   - Register models
+   - Manage transitions 
+   
+   You can also create regisries, and manipluate them by code : https://www.mlflow.org/docs/latest/model-registry.html
+  
