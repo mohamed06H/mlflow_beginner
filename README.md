@@ -53,5 +53,5 @@ https://github.com/pyenv/pyenv#basic-github-checkout
    - Register models
    - Manage transitions 
    
-   You can also create regisries, and manipluate them by code : https://www.mlflow.org/docs/latest/model-registry.html
+   You can also create registeries, and manipluate them by code : https://www.mlflow.org/docs/latest/model-registry.html
   
