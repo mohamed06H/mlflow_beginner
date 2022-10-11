@@ -6,6 +6,10 @@
 
     pip install mlflow[extras]
 
+**_NOTE:_**  Best Practice for windows users : Work on virtual environnements (pyenv or conda) within WSL2
+
+https://github.com/pyenv/pyenv#basic-github-checkout
+
 ### Explore the "titanic_classification.ipynb" notebook
    This is a fairly simple classification example. 
    It illustrates how to apply different preprocessing and feature extraction pipelines.
