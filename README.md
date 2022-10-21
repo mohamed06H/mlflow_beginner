@@ -53,7 +53,7 @@ https://github.com/pyenv/pyenv#basic-github-checkout
    
    - Track runs (informations, parameters, metrics, artifacts) 
    
-   In artifacts of each run, you'll find MLmodel, conda.yaml and other files which discribes the virtual environement required to reproduce the model.
+   In artifacts of each run, you'll find MLmodel, conda.yaml and other files which discribes the virtual environnement required to reproduce the model.
    
    ![Capture web_21-10-2022_153949_127 0 0 1](https://user-images.githubusercontent.com/114097516/197209863-517da0d5-17fb-481a-809a-ec73a334de83.jpeg)
    
