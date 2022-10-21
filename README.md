@@ -44,14 +44,27 @@ https://github.com/pyenv/pyenv#basic-github-checkout
         # mlflow log model
         mlflow.sklearn.log_model(clf, "classifier_titanic")
 
-### Launch MLflow on localhost with a Tracking Server:
+### Launch MLflow UI on localhost with a Tracking Server:
     Terminal:§ mlflow ui --backend-store-uri sqlite:///mlruns.db
    
    MLflow UI will appear on your browser, so you can :
    - Track experiments
-   - Compare runs 
-   - Register models
-   - Manage transitions 
+   <img width="959" alt="tracking " src="https://user-images.githubusercontent.com/114097516/197213970-b8bbf088-54af-449e-a15f-e101de546da1.png">
    
+   - Track runs (informations, parameters, metrics, artifacts) 
+   
+   In artifacts of each run, you'll find MLmodel, conda.yaml and other files which discribes the virtual environement required to reproduce the model.
+   
+   ![Capture web_21-10-2022_153949_127 0 0 1](https://user-images.githubusercontent.com/114097516/197209863-517da0d5-17fb-481a-809a-ec73a334de83.jpeg)
+   
+   - Compare runs
+   <img width="960" alt="compare2" src="https://user-images.githubusercontent.com/114097516/197214582-0c5bfc66-3bb4-4697-94db-17795167c7f7.png">
+
+   - Register models
+   <img width="960" alt="register" src="https://user-images.githubusercontent.com/114097516/197211487-571abb6e-7b7b-4ccb-adb3-86b1b1da3838.png">
+
+   - Manage versions and transitions 
+   <img width="960" alt="staging" src="https://user-images.githubusercontent.com/114097516/197212265-91ccf8a7-8f80-42b0-9655-a015b73f2857.png">
+
    You can also create registeries and manipluate them, by code : https://www.mlflow.org/docs/latest/model-registry.html
   
