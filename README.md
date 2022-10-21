@@ -1,4 +1,4 @@
-# MLflow for begginers
+# MLflow for beginners
 
 ## In this tutorial, you'll learn how to manage a Machine Learning project lifecycle with MLflow, locally
 
@@ -18,7 +18,7 @@ https://github.com/pyenv/pyenv#basic-github-checkout
    
     https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html#column-transformer-with-mixed-types
     
-### Integrate MLflow to the pipline : 
+### Integrate MLflow to the pipeline : 
    In order to track experiments, register models and deploy them you will have to integrate some mlflow functionalities in your code, as shown in the "titanic_classification_mlflow.ipynb" notebook.
   
    #### Import MLflow
@@ -53,5 +53,5 @@ https://github.com/pyenv/pyenv#basic-github-checkout
    - Register models
    - Manage transitions 
    
-   You can also create registeries, and manipluate them by code : https://www.mlflow.org/docs/latest/model-registry.html
+   You can also create registeries and manipluate them, by code : https://www.mlflow.org/docs/latest/model-registry.html
   
