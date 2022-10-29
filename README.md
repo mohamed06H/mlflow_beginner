@@ -66,5 +66,5 @@ https://github.com/pyenv/pyenv#basic-github-checkout
    - Manage versions and transitions 
    <img width="960" alt="staging" src="https://user-images.githubusercontent.com/114097516/197212265-91ccf8a7-8f80-42b0-9655-a015b73f2857.png">
 
-   You can also create registeries and manipluate them, by code : https://www.mlflow.org/docs/latest/model-registry.html
+   You can also create registries and manipluate them, by code : https://www.mlflow.org/docs/latest/model-registry.html
   
